@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=opensans:500);
+body{
+                background: #ee7be2;
+                color:#fff;
+                font-family: 'Open Sans', sans-serif;
+            }
+            .c{
+                text-align: center;
+                display: block;
+                position: relative;
+                width:80%;
+                margin:100px auto;
+            }
+            ._404{
+                font-size: 220px;
+                position: relative;
+                display: inline-block;
+                z-index: 2;
+                height: 250px;
+                letter-spacing: 15px;
+            }
+            ._1{
+                text-align:center;
+                display:block;
+                position:relative;
+                letter-spacing: 12px;
+                font-size: 4em;
+                line-height: 80%;
+            }
+            ._2{
+                text-align:center;
+                display:block;
+                position: relative;
+                font-size: 20px;
+            }
+            .text{
+                font-size: 70px;
+                text-align: center;
+                position: relative;
+                display: inline-block;
+                margin: 19px 0px 0px 0px;
+                z-index: 3;
+                width: 100%;
+                line-height: 1.2em;
+                display: inline-block;
+            }
+
+            .heart { 
+                position: relative; 
+                width: 100px; 
+                height: 90px; 
+                opacity: 0.9;
+                animation-name: heartshape;
+                animation-duration: 3s ; 
+                animation-iteration-count: infinite;
+                /* animation-direction: alternate; */
+                animation-timing-function: linear;
+            } 
+            
+            .heart:before, .heart:after { 
+                position: absolute; 
+                content: ""; 
+                left: 50px; 
+                top: 0; 
+                width: 50px; 
+                height: 80px; 
+                background: rgb(255, 255, 255); 
+                border-radius: 50px 50px 0 0; 
+                transform: rotate(-45deg); 
+                transform-origin: 0 100%;    
+            } 
+            
+            .heart:after { 
+                left: 0; 
+                transform: rotate(45deg); 
+                transform-origin :100% 100%; 
+            }
+
+            .heart2 { 
+                position: relative; 
+                width: 100px; 
+                height: 90px; 
+                opacity: 0.7;
+                animation-name: heartshape;
+                animation-duration: 4s ; 
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: linear;
+            } 
+            
+            .heart2:before, .heart2:after { 
+                position: absolute; 
+                content: ""; 
+                left: 50px; 
+                top: 0; 
+                width: 50px; 
+                height: 80px; 
+                background: rgb(238, 5, 188); 
+                border-radius: 50px 50px 0 0; 
+                transform: rotate(-45deg); 
+                transform-origin: 0 100%; 
+                
+            } 
+            
+            .heart2:after { 
+                left: 0; 
+                transform: rotate(45deg); 
+                transform-origin :100% 100%; 
+            }
+
+            .heart3 { 
+                position: relative; 
+                width: 100px; 
+                height: 90px; 
+                opacity: 0.9;
+                animation-name: heartshape;
+                animation-duration: 5s ; 
+                animation-iteration-count: infinite;
+                /* animation-direction: alternate; */
+                animation-timing-function: linear;
+            } 
+            
+            .heart3:before, .heart3:after { 
+                position: absolute; 
+                content: ""; 
+                left: 50px; 
+                top: 0; 
+                width: 50px; 
+                height: 80px; 
+                background: rgb(252, 101, 101); 
+                border-radius: 50px 50px 0 0; 
+                transform: rotate(-45deg); 
+                transform-origin: 0 100%;          
+            } 
+            
+            .heart3:after { 
+                left: 0; 
+                transform: rotate(45deg); 
+                transform-origin :100% 100%; 
+    
+            }
+
+            .heart4 { 
+                position: relative; 
+                width: 100px; 
+                height: 90px; 
+                opacity: 0.9;
+                animation-name: heartshape;
+                animation-duration: 6s; 
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: linear;
+            } 
+            
+            .heart4:before, .heart4:after { 
+                position: absolute; 
+                content: ""; 
+                left: 50px; 
+                top: 0; 
+                width: 50px; 
+                height: 80px; 
+                background: rgb(255, 255, 255); 
+                border-radius: 50px 50px 0 0; 
+                transform: rotate(-45deg); 
+                transform-origin: 0 100%; 
+            } 
+            
+            .heart4:after { 
+                left: 0; 
+                transform: rotate(45deg); 
+                transform-origin :100% 100%;     
+            }
+
+            
+            .heart5 { 
+                position: relative; 
+                width: 100px; 
+                height: 50px; 
+                opacity: 0.7;
+                animation-name: heartshape;
+                animation-duration: 7s; 
+                animation-iteration-count: infinite;
+                /* animation-direction: alternate; */
+                animation-timing-function: linear;
+            } 
+            
+            .heart5:before, .heart5:after { 
+                position: absolute; 
+                content: ""; 
+                left: 50px; 
+                top: 0; 
+                width: 50px; 
+                height: 80px; 
+                background: rgb(108, 7, 98); 
+                border-radius: 50px 50px 0 0; 
+                transform: rotate(-45deg); 
+                transform-origin: 0 100%; 
+            } 
+            
+            .heart5:after { 
+                left: 0; 
+                transform: rotate(45deg); 
+                transform-origin :100% 100%; 
+            }
+
+            .heart6 { 
+                position: relative; 
+                width: 100px; 
+                height: 50px; 
+                opacity: 0.3;
+                animation-name: heartshape;
+                animation-duration: 8s; 
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: linear;
+            } 
+            
+            .heart6:before, .heart6:after { 
+                position: absolute; 
+                content: ""; 
+                left: 50px; 
+                top: 0; 
+                width: 50px; 
+                height: 80px; 
+                background: rgb(237, 4, 120); 
+                border-radius: 50px 50px 0 0; 
+                transform: rotate(-45deg); 
+                transform-origin: 0 100%; 
+            } 
+            
+            .heart6:after { 
+                left: 0; 
+                transform: rotate(45deg); 
+                transform-origin :100% 100%; 
+    
+            }
+
+          @keyframes heartshape {
+            0% {margin-left: 1000px;}
+            100% {margin-left: -1000px;}
+          }
+
+
+        
+
+           
+
+          
